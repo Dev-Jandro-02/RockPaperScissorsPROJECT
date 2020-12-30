@@ -61,7 +61,7 @@ function battleRound(playerSelection, computerSelection = computerPlay()) {
     }
 
     else if (playerSelection === computerSelection) {
-        para.textContent = (`It's a tie!`);
+        para.textContent = (`It's a tie! ${playerSelection} = ${computerSelection}`);
     } else {
         computerPoints += 1;
         para.textContent = (`Computer wins! ${computerSelection} beats ${playerSelection}`);
