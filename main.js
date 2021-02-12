@@ -90,6 +90,6 @@ function battleRound(playerSelection, computerSelection = computerPlay()) {
 }
 
 
-// scroll
+// for scrolling
 
 playAgain.scrollIntoView(false);
