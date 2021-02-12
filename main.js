@@ -88,3 +88,7 @@ function battleRound(playerSelection, computerSelection = computerPlay()) {
         }
     }
 }
+
+
+
+playAgain.scrollIntoView(false);
